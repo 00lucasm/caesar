@@ -24,8 +24,6 @@ for i in range(len(string2)):
 	string2[i] = string2[i] + x
 '''
 
-
-
 # int to ASCII
 string3 = [chr(letter) for letter in string2]
 print(string3)
