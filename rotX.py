@@ -13,8 +13,6 @@ x = int(sys.argv[2])
 print("String: ", string)
 print("rot" + str(x))
 
-# print(type(string[2]))
-
 # ASCII to int
 string2 = [ord(letter) for letter in string]
 print(string2)
