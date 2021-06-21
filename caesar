@@ -1,0 +1,26 @@
+#!/usr/bin/python3
+
+import sys
+
+# Caesar cipher encryption function
+def encryption(STR, n):
+    encryptedSTR = ''
+    for x in STR:
+        encryptedSTR += chr((ord(x) + n % 26))
+    return(encryptedSTR)
+
+# Caesar cipher decryption function
+def decryption(STR, n):
+    decryptedSTR = ''
+    for x in STR:
+        decryptedSTR += chr((ord(x) - n % 26))
+    return(decryptedSTR)
+
+def main():
+    string = sys.argv[1]
+    x = int(sys.argv[2])
+    print("String:", string)
+    print("rot " + str(x) + ": " + encryption(string, x))
+
+main()
+
