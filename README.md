@@ -1,2 +1,2 @@
 # rotX
-Script para solução de desafios envolvendo cifras de substituição (cifras de César)
+Script para solução de desafios envolvendo cifras de substituição do tipo Cifra de César
