@@ -19,8 +19,8 @@ def decryption(STR, n):
 def main():
     string = sys.argv[1]
     x = int(sys.argv[2])
-    print("String:", string)
-    print("rot " + str(x) + ": " + encryption(string, x))
+    print(f'String: {string}')
+    print(f'rot {str(x)}: {encryption(string, x)}')
 
 main()
 
